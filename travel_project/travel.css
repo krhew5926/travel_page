@@ -22,7 +22,7 @@ nav a:active {
 }
 
 body { 
-	background-image: url(aussieunsplash.jpg);
+	background-image: url("aussieUnsplash.jpg");
 	color: #FFFFFF;
     font-size: 16px;
     background-size: cover;
@@ -55,7 +55,7 @@ h3 {
 header {
     width: 768px;
     height: 250px;
-    background-image: url("australiamap.jpg");
+    background-image: url("australiaMap.jpg");
 }
 
 aside {
