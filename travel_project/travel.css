@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+nav a:link {
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #449483;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #37776A;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+
+body { 
+	background-image: url(aussieunsplash.jpg);
+	color: #FFFFFF;
+    font-size: 16px;
+    background-size: cover;
+    padding: 0px 20px 20px 20px;
+}
+	
+#container {
+    width: 768px;
+    height: auto;
+    margin: auto;
+}
+
+p {
+    color: #000000;
+    font-size: 17px;
+}
+
+p aside{
+	color: white;
+}
+
+h1, h2{
+	color: #449483;
+}
+
+h3 {
+	padding: 0px 10px 0px 10px;
+}
+	
+header {
+    width: 768px;
+    height: 250px;
+    background-image: url("australiamap.jpg");
+}
+
+aside {
+	width: 175px;
+    height: 1320px;
+    float: left;
+    background-color: #234B43; 
+}
+
+main {
+    width: 573px;
+    height: 1300px;
+    float: left;
+    padding: 10px;
+    background-color: #CDDBDC;
+}
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: #234B43;
+}
+
+img {
+    float: left;
+	padding: 0px 14px 0px 0px
+}
+
+a {
+    text-decoration: none;
+    color: #37776A;
+}
+
+nav {
+    width: 768px;
+    height: 50px;
+}
+
+#container nav ul {
+	margin: auto; 
+	width: 700px;
+	padding: 4px;
+}
+
+#container nav li {
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    margin-right: 60px;
+    font-family: altesse-std-64pt, sans-serif;
+    font-size: 26pt;
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    color: black;
+}
+
+li {
+    color: black;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
+.squareList {
+	list-style-type: square;
+}
+
+.submit_btn {
+    height: 34px;
+    width: 200px;
+    font-size: 14pt;
+    border-radius: 40px;
+    background-color: #449483;
+    color: #FFFFFF;
+}
+ 
+.submit_btn:hover {
+    -webkit-box-shadow: 7px 7px 45px 1px;
+    box-shadow: 7px 7px 45px 1px;
+}
+
+.floatLeft {
+	float: left;
+	padding: 0px 14px 0px 0px
+}
+
+.floatRight {
+	float: right;
+	padding: 0px 0px 0px 14px
+}
